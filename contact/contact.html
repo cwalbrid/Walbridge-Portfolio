@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Colin Walbridge Contact Page</title>
+	<script src="index.js"></script>
+	<link type="text/css" rel="stylesheet" href="../css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script type="text/javascript" src="../js/index.js"></script>
+</head>
+<body>
+
+	<!-- container -->
+	<div class="container" class="clearfix">
+
+		<!-- header -->
+		<div id="header">
+			<p id="name">COLIN WALBRIDGE</p>
+			<p id="nav">
+				<a href="../index.html">Home.</a>
+				<a href="../about/about.html">About.</a>
+				<a href="contact.html">Contact.</a>
+			</p>
+		</div>
+		
+		<!-- body -->
+		<div id= "body-contact">
+		
+			<!-- main -->
+			<div class="mein">
+				<h1>Drop Me A Line</h1>
+				<h3>Or send me an email</h3>
+				<h3>Or shoot me a text</h3>
+				<h3>I'm not picky.</h3>
+				<div id="digits">
+					<p>E: <a href="mailto:cwalbrid@umich.edu">cwalbrid@umich.edu</a>
+					<p>P: 248.224.7255</p>
+				</div>	
+			</div>
+
+			<!-- form -->
+			<form id="form">
+				<fieldset>
+					<legend>Contact Me</legend>
+						Full Name:<br>
+							<input type="text" name="fullname" size="30"><br>
+						Email Address:<br>
+							<input type="text" name="email" size="30"><br>
+						Subject:<br>
+							<input type="text" name="subject" size="30"><br>
+						Message:<br>
+							<textarea rows="4" cols="40" id="Message"></textarea><br><br>
+							<button id="submit" type="button" onclick="messageReceived();">Submit</button>
+				<p id="received"></p>
+				</fieldset>
+				
+			</form>
+		</div>
+		</div>
+	</div>	
+</body>
+</html>
